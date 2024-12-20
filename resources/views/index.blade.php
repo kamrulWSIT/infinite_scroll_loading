@@ -2,7 +2,7 @@
 @extends('app')
 
 @section('contents')
-    <table id="myTable">
+    <table class="table" id="myTable">
         <thead>
             <tr>
                 <th>ID</th>
