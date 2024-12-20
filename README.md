@@ -1,2 +1,1 @@
-# 
-Laravel Infinite Scroll & Loadning
+# Server-side processing
