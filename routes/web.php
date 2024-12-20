@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/peoples', [PeopleController::class, 'index']);
+Route::get('/get-peoples', [PeopleController::class, 'getPeoples'])->name('getPeople');
