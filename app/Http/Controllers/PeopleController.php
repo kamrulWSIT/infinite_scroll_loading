@@ -10,11 +10,12 @@ class PeopleController extends Controller
 {
     public function index()
     {
-        $peoples = People::all();
+        // $peoples = People::all();
 
         // dd($peoples);
 
-        return view('index', compact('peoples'));
+        // return view('index', compact('peoples'));
+        return view('index');
     }
 
 
